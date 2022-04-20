@@ -1,0 +1,10 @@
+body{
+    background-color: rgba(0, 27, 40, 1);
+}
+div.carousel{
+    position: absolute;
+    width: 708px;
+    height: 591px;
+    left: 122px;
+    top: 204px;
+}
