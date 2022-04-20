@@ -8,3 +8,45 @@ div.carousel{
     left: 122px;
     top: 204px;
 }
+a.nav-linkk{
+    position: absolute;
+    width: 154px;
+    height: 43px;
+    left: 85%;
+    top: 56px;
+    
+    font-family: 'Rockwell Extra Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration-line: none;
+    
+    color: #000000;
+}
+a.nav-linkkk{
+    position: absolute;
+    width: 110px;
+    height: 33px;
+    left: 379px;
+    top: -6px;
+
+    font-family: 'Rockwell Extra Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    text-decoration-line: none;
+
+    color: #000000;
+}
+form.d-flex{
+    position: absolute;
+    width: 509px;
+    height: 36px;
+    left: 45%;
+    top: 58px;
+
+    background: #FFFFFF;
+    border-radius: 240px;
+}
