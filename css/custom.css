@@ -15,12 +15,10 @@ a.nav-linkk{
     left: 85%;
     top: 56px;
     
-    font-family: 'Rockwell Extra Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
     line-height: 35px;
-    text-decoration-line: none;
     
     color: #000000;
 }
@@ -31,22 +29,66 @@ a.nav-linkkk{
     left: 379px;
     top: -6px;
 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+#cine{
+    margin-left: -20px;
+    margin-top: 30px;
+    text-decoration-line: none;
+}
+#rect{
+    position: absolute;
+    width: 4px;
+    height: 130px;
+    left: 350px;
+    top: 3px;
+
+    background: #000000;
+}
+.form-control{
+    position: absolute;
+    width: 509px;
+    height: 36px;
+    left: 800px;
+    top: 58px;
+    border-radius: 240px;
+    z-index: 0;
+}
+#lupa{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 30px;
+}
+.btn{
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 1270px;
+    top: 58px;
+
+    background: #ffffff;
+    border-radius: 240px;
+}
+
+h1{
+    position: absolute;
+    width: 597px;
+    height: 31px;
+    left: 134px;
+    top: 158px;
+
     font-family: 'Rockwell Extra Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
     line-height: 35px;
-    text-decoration-line: none;
 
-    color: #000000;
-}
-form.d-flex{
-    position: absolute;
-    width: 509px;
-    height: 36px;
-    left: 45%;
-    top: 58px;
+    color: #EBFF00;
 
-    background: #FFFFFF;
-    border-radius: 240px;
 }
