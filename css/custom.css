@@ -6,7 +6,7 @@ div.carousel{
     width: 708px;
     height: 591px;
     left: 122px;
-    top: 204px;
+    top: 2040px;
 }
 a.nav-linkk{
     position: absolute;
@@ -50,6 +50,13 @@ a.nav-linkkk{
 
     background: #000000;
 }
+#mh{
+    position: absolute;
+    width: 71px;
+    height: 65px;
+    left: -70px;
+    top: -10px;
+    }
 .form-control{
     position: absolute;
     width: 509px;
@@ -91,4 +98,17 @@ h1{
 
     color: #EBFF00;
 
+}
+.dropdown-menu{
+    position: absolute;
+    width: 728px;
+    height: 385px;
+    left: 302px;
+    top: 106px;
+
+    background: #008F8C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 15px 4px 20px #000000;
+    border-radius: 100px;
 }
