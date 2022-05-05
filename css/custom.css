@@ -6,7 +6,7 @@ div.carousel{
     width: 708px;
     height: 591px;
     left: 122px;
-    top: 2040px;
+    top: 200px;
 }
 a.nav-linkk{
     position: absolute;
@@ -83,7 +83,7 @@ a.nav-linkkk{
     border-radius: 240px;
 }
 
-h1{
+.h1{
     position: absolute;
     width: 597px;
     height: 31px;
