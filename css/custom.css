@@ -1,114 +1,113 @@
-body{
-    background-color: rgba(0, 27, 40, 1);
+body {
+  background-color: rgba(0, 27, 40, 1);
 }
-div.carousel{
-    position: absolute;
-    width: 708px;
-    height: 591px;
-    left: 122px;
-    top: 200px;
+div.carousel {
+  position: absolute;
+  width: 708px;
+  height: 591px;
+  left: 122px;
+  top: 200px;
 }
-a.nav-linkk{
-    position: absolute;
-    width: 154px;
-    height: 43px;
-    left: 85%;
-    top: 56px;
-    
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
-    
-    color: #000000;
-}
-a.nav-linkkk{
-    position: absolute;
-    width: 110px;
-    height: 33px;
-    left: 379px;
-    top: -6px;
+a.nav-linkk {
+  position: absolute;
+  width: 154px;
+  height: 43px;
+  left: 85%;
+  top: 56px;
 
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
 
-    color: #000000;
+  color: #000000;
 }
-#cine{
-    margin-left: -20px;
-    margin-top: 30px;
-    text-decoration-line: none;
+a.nav-linkkk {
+  position: absolute;
+  width: 110px;
+  height: 33px;
+  left: 379px;
+  top: -6px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
 }
-#rect{
-    position: absolute;
-    width: 4px;
-    height: 130px;
-    left: 350px;
-    top: 3px;
-
-    background: #000000;
+#cine {
+  margin-left: -20px;
+  margin-top: 30px;
+  text-decoration-line: none;
 }
-#mh{
-    position: absolute;
-    width: 71px;
-    height: 65px;
-    left: -70px;
-    top: -10px;
-    }
-.form-control{
-    position: absolute;
-    width: 509px;
-    height: 36px;
-    left: 800px;
-    top: 58px;
-    border-radius: 240px;
-    z-index: 0;
+#rect {
+  position: absolute;
+  width: 4px;
+  height: 130px;
+  left: 350px;
+  top: 3px;
+
+  background: #000000;
 }
-#lupa{
-    position: absolute;
-    margin-top: -15px;
-    margin-left: -15px;
-    width: 30px;
+#mh {
+  position: absolute;
+  width: 71px;
+  height: 65px;
+  left: -70px;
+  top: -10px;
 }
-.btn{
-    position: absolute;
-    width: 40px;
-    height: 36px;
-    left: 1270px;
-    top: 58px;
+.form-control {
+  position: absolute;
+  width: 509px;
+  height: 36px;
+  left: 800px;
+  top: 58px;
+  border-radius: 240px;
+  z-index: 0;
+}
+#lupa {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 30px;
+}
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 36px;
+  left: 1270px;
+  top: 58px;
 
-    background: #ffffff;
-    border-radius: 240px;
+  background: #ffffff;
+  border-radius: 240px;
 }
 
-.h1{
-    position: absolute;
-    width: 597px;
-    height: 31px;
-    left: 134px;
-    top: 158px;
+.h1 {
+  position: absolute;
+  width: 597px;
+  height: 31px;
+  left: 134px;
+  top: 158px;
 
-    font-family: 'Rockwell Extra Bold';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
+  font-family: 'Rockwell Extra Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
 
-    color: #EBFF00;
-
+  color: #ebff00;
 }
-.dropdown-menu{
-    position: absolute;
-    width: 728px;
-    height: 385px;
-    left: 302px;
-    top: 106px;
+.dropdown-menu {
+  position: absolute;
+  width: 728px;
+  height: 385px;
+  left: 302px;
+  top: 106px;
 
-    background: #008F8C;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 15px 4px 20px #000000;
-    border-radius: 100px;
+  background: #008f8c;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 15px 4px 20px #000000;
+  border-radius: 100px;
 }

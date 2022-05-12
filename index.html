@@ -13,12 +13,27 @@
   <body>
       <!--HEADER-->
     <div id="Header">
-         <nav class="navbar col -11 fixed-top navbar-expand-lg navbar-dark"style="background-color: #008F8C;" style="z-index: 999;">
+         <nav class="navbar col -11 fixed-top navbar-expand-lg navbar-dark"style="background-color: #008F8C;">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img id="logo" src="img/pipoica 1.svg" alt=""><img id="cine" src="img/CINE HOUSE.svg" alt=""><img id="rect" src="img/Rectangle 2.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <div class="search-container">
+                <div class="search-element">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    id="movie-search-box"
+                    onkeyup="findMovies()"
+                    onclick="findMovies()"
+                  />
+        
+                  <div class="search-list" id="search-list">
+                  </div>
+                </div>
+              </div>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
@@ -35,10 +50,6 @@
                   <li class="nav-item">
                   <li class="nav-item">
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn" type="submit"><img id="lupa" src="img/lupa.svg" alt=""></button>
-                </form>
                 <a class="nav-linkk" href="Login.html">Login</a>
                   </li>
                 </ul>
@@ -80,8 +91,8 @@
         </button>
       </div>
       <!--//Carrossel-->
+      <script src="js/api.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="api/main.js"></script>
   </body>
 </html>
