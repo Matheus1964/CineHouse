@@ -7,6 +7,7 @@ div.carousel {
   height: 591px;
   left: 122px;
   top: 200px;
+  z-index: 0;
 }
 a.nav-linkk {
   position: absolute;
