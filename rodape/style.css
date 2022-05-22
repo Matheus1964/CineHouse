@@ -1,11 +1,12 @@
 #myFooter {
-    background-color: #3c3d41;
+    background: #3c3d41;
     color: white;
     padding-top: 30px;
+    
 }
 
 #myFooter .footer-copyright {
-    background-color: #333333;
+    background: #333333;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -33,7 +34,7 @@
 
 #myFooter h5 {
     font-size: 18px;
-    color: rgb(255, 213, 25);
+    color: #ebff00;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -84,7 +85,7 @@
     color: #00aced;
 }
 
-#myFooter .btn {
+#myFooter .btn-default {
     color: white;
     background-color: #d84b6b;
     border-radius: 20px;
@@ -122,4 +123,40 @@ body{
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
+}
+
+footer {
+    position: absolute;
+    bottom: -140%;          /*Posição do footer*/
+    width: 100%;
+}
+  
+.footer-copyright {
+    width: 100%;
+    overflow-x: hidden;
+}
+ 
+.logo {
+    padding-top: 35px;
+}
+
+.container {
+    
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+.col-3 .contato {
+    padding-right: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+#logo-rodape {
+    position: relative;
+    left: -22px;
 }
