@@ -1,8 +1,10 @@
 body {
   background-color: rgba(0, 27, 40, 1);
+  position: relative;
+  height: 100%;
 }
 div.carousel {
-  position: absolute;
+  position: relative;
   width: 708px;
   height: 591px;
   left: 122px;
@@ -14,7 +16,6 @@ a.nav-linkk {
   width: 154px;
   height: 43px;
   left: 85%;
-  top: 56px;
 
   font-style: normal;
   font-weight: 800;
@@ -25,8 +26,6 @@ a.nav-linkk {
 }
 a.nav-linkkk {
   position: absolute;
-  width: 110px;
-  height: 33px;
   left: 379px;
   top: -6px;
 
@@ -37,8 +36,13 @@ a.nav-linkkk {
 
   color: #000000;
 }
+.dropdown p{
+  float: left;
+  margin-left: -211px;
+  margin-top: -12px;
+}
 #cine {
-  margin-left: -20px;
+  margin-left: -8px;
   margin-top: 30px;
   text-decoration-line: none;
 }
@@ -46,17 +50,18 @@ a.nav-linkkk {
   position: absolute;
   width: 4px;
   height: 130px;
-  left: 350px;
+  left: 270px;
   top: 3px;
 
   background: #000000;
 }
 #mh {
   position: absolute;
-  width: 71px;
-  height: 65px;
-  left: -70px;
-  top: -10px;
+  width: 90px;
+  height: 90px;
+  left: -300px;
+  top: -40px;
+  
 }
 .form-control {
   position: absolute;
@@ -67,6 +72,12 @@ a.nav-linkkk {
   border-radius: 240px;
   z-index: 0;
 }
+
+#movie-search-box {
+  letter-spacing: 1px;
+
+}
+
 #lupa {
   position: absolute;
   margin-top: -15px;
@@ -74,7 +85,7 @@ a.nav-linkkk {
   width: 30px;
 }
 .btn {
-  position: absolute;
+  
   width: 40px;
   height: 36px;
   left: 1270px;
@@ -112,11 +123,14 @@ a.nav-linkkk {
   box-shadow: 15px 4px 20px #000000;
   border-radius: 100px;
 }
-.recomendados{
+
+.dropdown-item {
+  padding: 0.1rem 1rem
+}
+
+.recomendados{                                        /*RECOMENDADOS*/
   position: absolute;
-  width: ;
-  height: ;
-  left: 1050px;
+  left: 950px;
   top: 158px;
 
   font-family: 'Rockwell Extra Bold';
@@ -126,5 +140,76 @@ a.nav-linkkk {
   line-height: 35px;
 
   color: #ebff00;
-
 }
+
+.recomendados ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recomendados-img {                /*Altura e largura dos recomendados*/
+  height: 180px;
+  width: 135px;
+}
+
+.recomendados-item {
+  padding: 20px;
+  padding-left: 10px;
+}
+
+.dropdown-menu.show {
+  top: 18px;
+}
+
+#movie-search-box {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  padding: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.submenu {
+  list-style-type: none;
+}
+
+.menu-subtitulo {                /*Menu Subtítulo*/
+  font-size: 30px;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  text-align: left;
+  font-weight: 800;
+  color: black;
+  padding-left: 10%;
+}
+
+.menu-item {                   /*Menu item*/
+  font-size: 1.3em;
+  font-weight: 649;
+  color: black;
+  padding-left: 10%;
+}
+
+#logo-menu {
+  float: right;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+
+#cinehouse-position {
+  position: relative;
+  left: -4%;
+  bottom: -1rem;
+}
+
+
+
+
+
