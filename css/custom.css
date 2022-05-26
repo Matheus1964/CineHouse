@@ -133,13 +133,14 @@ a.nav-linkkk {
   left: 950px;
   top: 158px;
 
-  font-family: 'Rockwell Extra Bold';
   font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
   line-height: 35px;
-
   color: #ebff00;
+}
+
+.recomendados h2 {
+  font-family: 'Rockwell Extra Bold';
+  font-weight: 800;
 }
 
 .recomendados ul {
@@ -209,7 +210,89 @@ a.nav-linkkk {
   bottom: -1rem;
 }
 
+/*//////////////////// Em breve //////////////////*/
+.embreve {             
+  margin-top: 20%; 
+}
+
+.embreve h2 {
+  color: #ebff00;
+  font-family: 'Rockwell extra bold';
+  padding-left: 5%;
+  font-weight: 800;
+}
 
 
+.poster-img {
+  width: 200px;
+  height: 267px;
+  transition: .3s ease;
+}
 
+.poster-hover:hover .poster-img {             /*hover*/
+  opacity: 0.5;
+}
+
+.subtitulo-link {
+  text-decoration: none;
+  color: #ebff00;
+}
+
+/*//////////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
+.wrapper {
+  padding-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 15px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  column-gap: 1rem;
+}
+
+.wrapper .col .poster-grid {
+  width: 150px;
+  height: 200px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.wrapper::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 15px;
+  
+} 
+
+.wrapper::-webkit-scrollbar-thumb {
+  background-color: rgb(93, 93, 114);
+  border-radius: 10px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.lanc {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.filme-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem ;
+  padding-bottom: 10px;
+}
+
+.poster-titulo {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: 'Minion';
+  letter-spacing: 2px;
+  line-height: 26px;
+}
+
+/*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
 
