@@ -70,9 +70,9 @@ function displayMovieDetails(details) {
     position: absolute;
     top: 8.5rem;
     width: 100%;
-    height: 100%;
+    height: 262%;
     background-color: rgba(0, 27, 40, 1);
-    z-index: 2;
+    z-index: 5;
   }</style>
   <div class = "movie-poster">
   <img src = "${img}${details.poster_path}" alt = "movie poster">
