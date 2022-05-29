@@ -231,6 +231,7 @@ a.nav-linkkk {
 
 .poster-hover:hover .poster-img {             /*hover*/
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .subtitulo-link {
@@ -279,20 +280,17 @@ a.nav-linkkk {
   text-align: center;
 }
 
-.filme-link {
-  text-decoration: none;
-  color: white;
-  font-size: 1.4rem ;
-  padding-bottom: 10px;
-}
-
 .poster-titulo {
   text-align: center;
   margin-bottom: 5px;
   font-family: 'Minion';
   letter-spacing: 2px;
   line-height: 26px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem ;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
-
 /*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
 
