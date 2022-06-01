@@ -129,7 +129,7 @@ a.nav-linkkk {
 }
 
 .recomendados{                                        /*RECOMENDADOS*/
-  position: absolute;
+  position:absolute;
   left: 950px;
   top: 158px;
 
@@ -154,6 +154,7 @@ a.nav-linkkk {
 }
 
 .recomendados-item {
+  display: inline-block;
   padding: 20px;
   padding-left: 10px;
 }
