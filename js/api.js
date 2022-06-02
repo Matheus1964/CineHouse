@@ -1,5 +1,4 @@
 const img = 'https://image.tmdb.org/t/p/w500'
-const vi = 'https://www.youtube.com/watch?v='
 const movieSearchBox = document.getElementById('movie-search-box')
 const searchList = document.getElementById('search-list')
 const resultGrid = document.getElementById('result-grid')
