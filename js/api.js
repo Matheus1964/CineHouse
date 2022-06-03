@@ -86,8 +86,8 @@ function displayMovieDetails(details) {
   <p class = "genre"><b>Gênero</b> ${details.genres[0].name}</p>
   <p class = "writer"><b>País:</b>${details.production_countries[0].name}.</p>
   <p class = "actors"><b>Lançamento: </b>${details.release_date}</p>
-  <p class = "plot"><b>Sinopse:</b>${details.overview}</p>
-  <p class = "language"><b>Língua:</b>${details.spoken_languages[0].name}</p>
+  <p class = "plot"><b>Sinopse:</b> ${details.overview}</p>
+  <p class = "language"><b>Língua:</b> ${details.spoken_languages[0].name}</p>
   <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
 </div>`
 }
