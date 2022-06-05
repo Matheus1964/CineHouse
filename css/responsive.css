@@ -210,3 +210,11 @@
     margin-left: 0;
   }
 }
+/*Pagina de redes social */
+.card {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-bottom: 200px;
+}

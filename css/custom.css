@@ -36,7 +36,7 @@ a.nav-linkkk {
 
   color: #000000;
 }
-.dropdown p{
+.dropdown p {
   float: left;
   margin-left: -211px;
   margin-top: -12px;
@@ -61,7 +61,6 @@ a.nav-linkkk {
   height: 90px;
   left: -300px;
   top: -40px;
-  
 }
 .form-control {
   position: absolute;
@@ -75,7 +74,6 @@ a.nav-linkkk {
 
 #movie-search-box {
   letter-spacing: 1px;
-
 }
 
 #lupa {
@@ -84,8 +82,7 @@ a.nav-linkkk {
   margin-left: -15px;
   width: 30px;
 }
-.btn {
-  
+/*.btn {
   width: 40px;
   height: 36px;
   left: 1270px;
@@ -93,7 +90,7 @@ a.nav-linkkk {
 
   background: #ffffff;
   border-radius: 240px;
-}
+}*/
 
 .h1 {
   position: absolute;
@@ -125,11 +122,12 @@ a.nav-linkkk {
 }
 
 .dropdown-item {
-  padding: 0.1rem 1rem
+  padding: 0.1rem 1rem;
 }
 
-.recomendados{                                        /*RECOMENDADOS*/
-  position:absolute;
+.recomendados {
+  /*RECOMENDADOS*/
+  position: absolute;
   left: 950px;
   top: 158px;
 
@@ -148,7 +146,8 @@ a.nav-linkkk {
   padding: 0;
 }
 
-.recomendados-img {                /*Altura e largura dos recomendados*/
+.recomendados-img {
+  /*Altura e largura dos recomendados*/
   height: 180px;
   width: 135px;
 }
@@ -173,7 +172,7 @@ a.nav-linkkk {
   padding: 30px;
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -182,16 +181,20 @@ a.nav-linkkk {
   list-style-type: none;
 }
 
-.menu-subtitulo {                /*Menu Subtítulo*/
+.menu-subtitulo {
+  /*Menu Subtítulo*/
   font-size: 30px;
-  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-align: left;
   font-weight: 800;
   color: black;
   padding-left: 10%;
 }
 
-.menu-item {                   /*Menu item*/
+.menu-item {
+  /*Menu item*/
   font-size: 1.3em;
   font-weight: 649;
   color: black;
@@ -212,8 +215,8 @@ a.nav-linkkk {
 }
 
 /*//////////////////// Em breve //////////////////*/
-.embreve {             
-  margin-top: 20%; 
+.embreve {
+  margin-top: 20%;
 }
 
 .embreve h2 {
@@ -223,14 +226,14 @@ a.nav-linkkk {
   font-weight: 800;
 }
 
-
 .poster-img {
   width: 200px;
   height: 267px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
-.poster-hover:hover .poster-img {             /*hover*/
+.poster-hover:hover .poster-img {
+  /*hover*/
   opacity: 0.5;
   cursor: pointer;
 }
@@ -262,8 +265,7 @@ a.nav-linkkk {
 .wrapper::-webkit-scrollbar {
   border-radius: 10px;
   height: 15px;
-  
-} 
+}
 
 .wrapper::-webkit-scrollbar-thumb {
   background-color: rgb(93, 93, 114);
@@ -289,9 +291,8 @@ a.nav-linkkk {
   line-height: 26px;
   text-decoration: none;
   color: white;
-  font-size: 1.4rem ;
+  font-size: 1.4rem;
   padding-bottom: 10px;
   cursor: pointer;
 }
 /*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
-
