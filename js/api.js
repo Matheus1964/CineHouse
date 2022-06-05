@@ -79,7 +79,6 @@ function displayMovieDetails(details) {
 <div class = "movie-info">
   <h3 class = "movie-title">${details.title}</h3>
   <ul class = "movie-misc-info">
-      <li class = "year">Lançamento:</li>
       <li class = "rated">Receita: ${details.revenue}</li>
       <li class = "released">Duração:${details.runtime}Minutos</li>
   </ul>
@@ -88,7 +87,6 @@ function displayMovieDetails(details) {
   <p class = "actors"><b>Lançamento: </b>${details.release_date}</p>
   <p class = "plot"><b>Sinopse:</b> ${details.overview}</p>
   <p class = "language"><b>Língua:</b> ${details.spoken_languages[0].name}</p>
-  <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
 </div>`
 }
 
