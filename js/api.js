@@ -97,3 +97,18 @@ window.addEventListener('click', event => {
     searchList.classList.add('hide-search-list')
   }
 })
+/*const tela = document.getElementById('teste')
+tela.addEventListener('click', function () {
+  console.log('deu certo')
+  resultGrid.innerHTML = `
+  <style>
+  .result-container {
+    position: absolute;
+    top: 8.5rem;
+    width: 100%;
+    height: 262%;
+    background-color: blue;
+    z-index: 2;
+  }</style>`
+})
+*/
