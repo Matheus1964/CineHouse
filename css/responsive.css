@@ -7,16 +7,16 @@
 }
 .search-list {
   position: absolute;
-  right: 35%;
+  right: 34%;
   top: 61%;
   max-height: 500px;
   overflow-y: scroll;
   z-index: 10;
 }
 .search-list .search-list-item {
-  background-color: #000000;
+  background-color: #008f8c;
   border-bottom: 1px solid var(--dark-color);
-  width: calc(350px - 8px);
+  width: calc(30rem - 16px);
   color: #fff;
   cursor: pointer;
   -webkit-transition: background-color 200ms ease;
@@ -213,8 +213,8 @@
 /*Pagina de redes social */
 .card {
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 20rem;
   margin-left: 200px;
-  margin-right: auto;
-  margin-bottom: 200px;
+  margin-right: 100px;
+  margin-bottom: 20rem;
 }
