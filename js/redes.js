@@ -1,7 +1,7 @@
 const tela = document.getElementById('redes')
 const fundo = document.getElementById('predes')
 tela.addEventListener('click', function () {
-  console.log('deu certo')
+  /*console.log('deu certo')*/
   fundo.innerHTML = `
   <style>
   #predes {
