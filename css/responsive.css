@@ -212,8 +212,33 @@
 /*Pagina de redes social */
 .card {
   display: inline-block;
-  margin-top: 20rem;
   margin-left: 200px;
   margin-right: 100px;
-  margin-bottom: 20rem;
+  border-radius: 10px;
+}
+.linha {
+  position: absolute;
+  display: inline-block;
+  top: 15rem;
+}
+.linha2 {
+  position: absolute;
+  display: inline;
+  bottom: 23rem;
+}
+#redes1 {
+  position: absolute;
+  left: 38%;
+  top: 5%;
+
+  font-family: 'Rockwell Extra Bold';
+  color: #ebff00;
+}
+#redes2 {
+  position: absolute;
+  left: 42%;
+  top: 150%;
+
+  font-family: 'Rockwell Extra Bold';
+  color: #ebff00;
 }
