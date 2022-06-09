@@ -1,35 +1,21 @@
-body{
-    background-color: rgba(0, 27, 40, 1);
-
-}
-
-img{
-    width: 300em;
-    height: auto;
-
-}
-
 .h1-recomendados{
     font-family: 'Rockwell Extra Bold';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
     line-height: 35px;
-  
-    color: #ebff00;
-  
-    padding-top: 3%;
+
+    margin-top: 15%;
     padding-left: 2%;
-    padding-right: 2%;
-  
+    
+    color: #ebff00;
 }
-  
 .filmes-recomendados{
     display: inline-block;
+
     padding-left: 3%;
     padding-bottom: 1%;
     margin: 0.5%;
-  
+    
     color: #ebff00;
-  
 }
