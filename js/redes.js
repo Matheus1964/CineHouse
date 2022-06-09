@@ -43,9 +43,9 @@ tela.addEventListener('click', function () {
 <div class="card" style="width: 18rem;">
   <img src="../img/github.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">matheus</p>
-    <a href="#" class="btn btn-primary">Acessar</a>
+    <h5 class="card-title">GitHub</h5>
+    <p class="card-text"></p>
+    <a href="https://github.com/Matheus1964" class="btn btn-primary">Acessar</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
