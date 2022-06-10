@@ -153,7 +153,6 @@ a.nav-linkkk {
 }
 
 .recomendados-item {
-  display: inline-block;
   padding: 20px;
   padding-left: 10px;
 }
@@ -296,3 +295,23 @@ a.nav-linkkk {
   cursor: pointer;
 }
 /*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
+
+/*///////////////////Anúncio vertical////////////////////////////*/
+
+.ad {
+  width: 160px;
+  height: 600px;
+  background-color: #87CEEB;
+  position: absolute;
+  right: 10px;
+  top: 22%;
+}
+
+.ad span{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-weight: bold;
+}
+
+/*///////////////////Anúncio vertical////////////////////////////*/
