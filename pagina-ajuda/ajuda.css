@@ -99,6 +99,7 @@
 }
 
 .botao {
+    position: relative;
     height: 3rem;
     border-radius: 15px;
     width: 6em;
@@ -115,4 +116,19 @@
 
 .result-container {
     height: 175% !important;
+}
+
+#myFooter {
+    position: relative;
+}
+
+.container {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+.row {
+    margin: 0;
 }
