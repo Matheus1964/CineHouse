@@ -3,7 +3,7 @@
   --md-dark-color: #1d1d1d;
   --dark-color: #171717;
   --light-dark-color: #292929;
-  --yellow-color: #d4aa11;
+  --yellow-color: #ebff00;
 }
 .search-list {
   position: absolute;
@@ -87,6 +87,7 @@
 
 /* movie info stylings */
 .movie-title {
+  font-family: 'Rockwell Extra Bold';
   font-size: 2rem;
   color: var(--yellow-color);
 }
@@ -107,7 +108,7 @@
   font-weight: 500;
 }
 .movie-info .rated {
-  background-color: var(--yellow-color);
+  background-color: #a6b409;
   padding: 0.4rem;
   margin: 0 0.4rem;
   border-radius: 3px;

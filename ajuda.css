@@ -1,0 +1,119 @@
+.titulo-principal {
+    margin-top: 9rem;
+    margin-bottom: 2rem; /*alterar*/
+    font-family: 'Rockwell extra bold';
+    color: #ebff00;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contatos {
+    color: whitesmoke;
+    margin: 3%;
+    margin-bottom: 2%;
+    margin-left: 2.8%;
+}
+
+.contatos h2 {
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.contatos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contatos ul li {
+    font-size: 1.4rem;
+}
+
+.lista-item .cabecalho {
+    font-size: 1.7rem;
+    font-family: 'Rockwell extra bold';
+    padding-right: 20px;
+    margin-left: 0.1%;
+}
+
+.informacao {
+    position: absolute;
+    left: 12%;
+}
+
+.mensagem {
+    color: whitesmoke;
+    margin: 2%;
+    margin-top: 1%;
+}
+
+#mensagem-frase {
+    font-size: 25px;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.formulario {
+    display: inline;
+    position: relative;
+    padding: 20px 0 5px 0;
+    font-size: 20px;
+}
+
+.formulario-nome{
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 75%;
+    padding-left: 0.5rem;
+    height: 2em;
+}
+
+.formulario-email{
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 75%;
+    padding-left: 0.5rem;
+    height: 2em;
+}
+
+.cabecalho-msg {
+    padding-left: 1%;
+}
+
+.area-mensagem {
+    margin-left: 1%;
+    border-radius: 10px;
+    padding: 1rem;
+    width:70%;
+}
+
+.col-6 {
+    margin: 2% 0 2% 0;
+    padding-left: 1.8%;
+}
+
+.div-botao {
+    margin: 1.5% 0 0 1%;
+
+}
+
+.botao {
+    height: 3rem;
+    border-radius: 15px;
+    width: 6em;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #008f8c;
+    position: relative;
+}
+
+.botao:hover{
+    background:#5F9EA0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.result-container {
+    height: 175% !important;
+}
