@@ -88,6 +88,8 @@ function displayMovieDetails(details) {
   <p class = "plot"><b>Sinopse:</b> ${details.overview}</p>
   <p class = "language"><b>Língua:</b> ${details.spoken_languages[0].name}</p>
 </div>`
+
+  scrollToTop()
 }
 
 window.addEventListener('click', event => {
@@ -110,3 +112,7 @@ tela.addEventListener('click', function () {
   }</style>`
 })
 */
+
+function scrollToTop() {
+	$(window).scrollTop(0, 0)
+}
