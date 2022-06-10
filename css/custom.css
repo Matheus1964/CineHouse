@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: rgba(0, 27, 40, 1);
   position: relative;
@@ -301,13 +305,13 @@ a.nav-linkkk {
 .ad {
   width: 160px;
   height: 600px;
-  background-color: #87CEEB;
+  background-color: #87ceeb;
   position: absolute;
   right: 10px;
   top: 22%;
 }
 
-.ad span{
+.ad span {
   position: absolute;
   top: 50%;
   left: 30%;
