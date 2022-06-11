@@ -4,8 +4,7 @@
 }
 body {
   background-color: rgba(0, 27, 40, 1);
-  position: relative;
-  height: 100%;
+  height: 1920px;
 }
 div.carousel {
   position: relative;
@@ -299,7 +298,9 @@ a.nav-linkkk {
   cursor: pointer;
 }
 /*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
-
+#myFooter {
+  margin-top: auto;
+}
 /*///////////////////Anúncio vertical////////////////////////////*/
 
 .ad {

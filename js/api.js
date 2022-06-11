@@ -114,5 +114,5 @@ tela.addEventListener('click', function () {
 */
 
 function scrollToTop() {
-	$(window).scrollTop(0, 0)
+  $(window).scrollTop(0, 0)
 }

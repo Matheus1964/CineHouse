@@ -8,19 +8,16 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   color: #ffffff;
-  position: relative;
-  height: 200%;
 }
 
 .containert {
   text-align: center;
   position: relative;
-  margin-top: 10%;
   top: 10rem;
 }
 
 .conjunto {
-  margin: 35px;
+  margin: 3px;
 }
 
 .conjunto:hover {

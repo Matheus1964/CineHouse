@@ -1,19 +1,19 @@
-#video{
-    text-align: center;
-    padding: 250px;
+#video {
+  text-align: center;
+  padding: 250px;
 }
-.h11{
-    position: absolute;
-    width: 597px;
-    height: 31px;
-    right: 400px;
-    top: 158px;
+.h11 {
+  position: absolute;
+  width: 597px;
+  height: 31px;
+  right: 400px;
+  top: 158px;
 
-    font-family: 'Rockwell Extra Bold';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 35px;
+  font-family: 'Rockwell Extra Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
 
-    color: #EBFF00;
+  color: #ebff00;
 }
