@@ -141,9 +141,14 @@ body {
   color: #ebff00;
 }
 
+#link-recomendados {
+  text-decoration: none;
+}
+
 .recomendados h2 {
   font-family: 'Rockwell Extra Bold';
   font-weight: 800;
+  color: #ebff00;
 }
 
 .recomendados ul {
@@ -305,16 +310,17 @@ body {
 }
 /*///////////////////Anúncio vertical////////////////////////////*/
 
-.ad {
+.anuncio {
   width: 160px;
   height: 600px;
-  background-color: #87ceeb;
+  background-color: #063c51;
+  color: #ffffff;
   position: absolute;
   right: 10px;
   top: 22%;
 }
 
-.ad span {
+.anuncio span {
   position: absolute;
   top: 50%;
   left: 30%;
@@ -322,3 +328,108 @@ body {
 }
 
 /*///////////////////Anúncio vertical////////////////////////////*/
+
+/*///////////////////Anúncio horizontal///////////////////////*/
+
+.anuncio-2 div{
+  width: 90%;
+  height: 100px;
+  background: #063c51;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+  left: 5%;
+}
+
+.anuncio-2 span {
+  position: relative;
+  top: 40%;
+  left: 47%;
+  font-weight: bold;
+}
+
+/*///////////////////Anúncio horixzontal///////////////////////*/
+
+/*///////////////////////Parte de Notícias////////////////////////*/
+
+.noticias {              /*Div principal*/
+  position: relative;
+  padding-left: 50px;
+}
+
+.linha-noticia {
+  margin-top: 50px;
+  margin-bottom: 40px
+}
+
+.link-noticia {
+  margin-top: 140px;
+  text-decoration: none;
+  position: relative;
+}
+
+.h2-noticia {
+  color: #ebff00;
+  font-family: 'Rockwell extra bold';
+  text-align: center;
+  font-weight: 800;
+  
+}
+
+.titulo-noticia {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.img-noticia {
+  border-radius: 18px;
+}
+
+.p-noticia {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.noticia-item a{
+  text-decoration: none;
+  color: white;
+}
+
+.noticia-item {
+  width: 400px;
+}
+
+.noticia-item:hover {
+  transform: scale(1.04);
+  transition: 0.3s ease;
+}
+
+.link-item:hover {
+  color: #008f8c;
+  text-decoration: none;
+}
+
+/*Linha do parágrafo Mais*/
+
+#bloco-mais {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#mais{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#mais a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mais a:hover{
+  color: #008f8c;
+}
+
+/*Linha do parágrafo Mais*/
+
+/*///////////////////////Parte de Notícias////////////////////////*/
