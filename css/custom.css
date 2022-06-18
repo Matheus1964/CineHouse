@@ -16,7 +16,7 @@ body {
 .navbar {
   background-color: #008f8c;
 }
-/*longin*/
+/*login*/
 .Login {
   position: relative;
   right: 10rem;
@@ -331,7 +331,7 @@ body {
 
 /*///////////////////Anúncio horizontal///////////////////////*/
 
-.anuncio-2 div{
+.anuncio-2 div {
   width: 90%;
   height: 100px;
   background: #063c51;
@@ -352,14 +352,15 @@ body {
 
 /*///////////////////////Parte de Notícias////////////////////////*/
 
-.noticias {              /*Div principal*/
+.noticias {
+  /*Div principal*/
   position: relative;
   padding-left: 50px;
 }
 
 .linha-noticia {
   margin-top: 50px;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 .link-noticia {
@@ -373,7 +374,6 @@ body {
   font-family: 'Rockwell extra bold';
   text-align: center;
   font-weight: 800;
-  
 }
 
 .titulo-noticia {
@@ -390,7 +390,7 @@ body {
   font-size: 1.1rem;
 }
 
-.noticia-item a{
+.noticia-item a {
   text-decoration: none;
   color: white;
 }
@@ -416,17 +416,17 @@ body {
   margin-bottom: 80px;
 }
 
-#mais{
+#mais {
   text-align: center;
   font-size: 1.5rem;
 }
 
-#mais a{
+#mais a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#mais a:hover{
+#mais a:hover {
   color: #008f8c;
 }
 
