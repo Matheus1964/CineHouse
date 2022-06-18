@@ -6,19 +6,34 @@ body {
   background-color: rgba(0, 27, 40, 1);
   height: 1920px;
 }
-div.carousel {
-  position: relative;
+.carrosel {
   width: 708px;
-  height: 591px;
-  left: 122px;
-  top: 200px;
+  height: 592px;
+  margin-top: 200px;
+  margin-left: 130px;
   z-index: 0;
 }
-a.nav-linkk {
-  position: absolute;
-  width: 154px;
-  height: 43px;
-  left: 85%;
+.navbar {
+  background-color: #008f8c;
+}
+/*longin*/
+.Login {
+  position: relative;
+  right: 10rem;
+  bottom: 0.1rem;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+
+  color: #000000;
+}
+/*menu*/
+.Menu {
+  display: inline-flex;
+  position: relative;
+  left: 100px;
+  top: 5px;
 
   font-style: normal;
   font-weight: 800;
@@ -27,23 +42,11 @@ a.nav-linkk {
 
   color: #000000;
 }
-a.nav-linkkk {
-  position: absolute;
-  left: 379px;
-  top: -6px;
-
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 35px;
-
-  color: #000000;
+.Menu p {
+  position: relative;
+  top: 12px;
 }
-.dropdown p {
-  float: left;
-  margin-left: -211px;
-  margin-top: -12px;
-}
+
 #cine {
   margin-left: -8px;
   margin-top: 30px;
@@ -59,7 +62,7 @@ a.nav-linkkk {
   background: #000000;
 }
 #mh {
-  position: absolute;
+  position: relative;
   width: 90px;
   height: 90px;
   left: -300px;
@@ -96,7 +99,6 @@ a.nav-linkkk {
 }*/
 
 .h1 {
-  position: absolute;
   width: 597px;
   height: 31px;
   left: 134px;
@@ -161,7 +163,7 @@ a.nav-linkkk {
 }
 
 .dropdown-menu.show {
-  top: 18px;
+  top: 100px;
 }
 
 #movie-search-box {
@@ -218,7 +220,7 @@ a.nav-linkkk {
 
 /*//////////////////// Em breve //////////////////*/
 .embreve {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .embreve h2 {
