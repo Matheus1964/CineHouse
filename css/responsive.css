@@ -7,7 +7,7 @@
 }
 .search-list {
   position: absolute;
-  right: 34%;
+  right: 34.2%;
   top: 61%;
   max-height: 500px;
   overflow-y: scroll;
@@ -243,4 +243,68 @@
 
   font-family: 'Rockwell Extra Bold';
   color: #ebff00;
+}
+/* responsivo teste*/
+@media (max-width: 1440px) {
+  .search-list {
+    position: absolute;
+    right: 25%;
+    top: 61%;
+  }
+}
+@media (max-width: 1300px) {
+  .Menu {
+    color: blue;
+    position: relative;
+    left: 10px;
+  }
+  .Login {
+    position: relative;
+    margin-left: 1000px;
+    right: 480px;
+    color: blue;
+  }
+  .search-container {
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .Menu {
+    visibility: hidden;
+  }
+  .Login {
+    visibility: hidden;
+  }
+  .search-container {
+    visibility: hidden;
+  }
+  .navbar {
+    background-color: #008f8c;
+  }
+  .navbar-toggler {
+    position: relative;
+    left: 22%;
+  }
+}
+@media (max-width: 860px) {
+  .carrosel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+  }
+  body {
+    background-color: #a6b409;
+  }
+  .search-container {
+    visibility: hidden;
+  }
+  .Menu {
+    position: relative;
+    margin-left: -182px;
+  }
+  .movie-poster img {
+    margin: auto;
+  }
 }
