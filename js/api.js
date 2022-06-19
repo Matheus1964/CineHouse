@@ -69,9 +69,39 @@ function displayMovieDetails(details) {
     position: absolute;
     top: 8.5rem;
     width: 100%;
-    height: 310%;
+    height: 80%;
     background-color: rgba(0, 27, 40, 1);
     z-index: 2;
+  }
+  @media (max-width: 1440px) {
+    .result-container {
+      background-color: rgba(0, 27, 40, 1);
+      height: 290%;
+      width: 100%;
+      z-index: 5;
+    }
+    .movie-poster img{
+      margin-left: 300px
+    }
+    .movie-info {
+      margin-left: 100px
+      
+    }
+  }
+  @media (max-width: 1680px) {
+    .result-container {
+      background-color: rgba(0, 27, 40, 1);
+      height: 290%;
+      width: 100%;
+      z-index: 5;
+    }
+    .movie-poster img{
+      margin-left: 400px
+    }
+    .movie-info {
+      margin-left: 100px
+      
+    }
   }</style>
   <div class = "movie-poster">
   <img src = "${img}${details.poster_path}" alt = "movie poster">
