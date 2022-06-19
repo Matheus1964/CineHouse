@@ -8,7 +8,7 @@ tela.addEventListener('click', function () {
     position: absolute;
     top: 8.5rem;
     width: 100%;
-    height: 150%;
+    height: 180%;
     background-color: rgba(0, 27, 40, 1);
     z-index: 2;
   }</style>
