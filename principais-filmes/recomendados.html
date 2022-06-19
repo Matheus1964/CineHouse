@@ -24,30 +24,28 @@
     <!--HEADER-->
     <div id="Header">
 
-      <nav class="navbar col -11 fixed-top navbar-expand-lg navbar-dark" style="background-color: #008F8C;">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img id="logo" src="../img/pipoica 1.svg" alt=""><img id="cine"
               src="../img/CINE HOUSE.svg" alt=""><img id="rect" src="../img/Rectangle 2.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="search-container">
             <div class="search-element">
               <input type="text" class="form-control" placeholder="Pesquisar filme" id="movie-search-box"
                 onkeyup="findMovies()" onclick="findMovies()" />
   
-              <div class="search-list" id="search-list"></div>
+                <div class="search-list" id="search-list"></div>
             </div>
           </div>
   
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-linkkk dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  <img id="mh" src="../img/gridicons_menu.svg" alt="">
+                  <div class="Menu">
+                  <img id="Menu" src="../img/gridicons_menu.svg" alt="">
                   <p>Menu</p>
+                </div>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <div class="grid">
@@ -55,15 +53,15 @@
                       <li class="menu-subtitulo">Filmes</li>
                       <li><a class="dropdown-item menu-item" href="#">Principais filmes</a></li>
                       <li><a class="dropdown-item menu-item" href="#">Mais populares</a></li>
-                      <li><a class="dropdown-item menu-item" href="#">Notícias de cinema</a></li>
-                      <li><a class="dropdown-item menu-item" href="#">Sugestões</a></li>
+                      <li><a class="dropdown-item menu-item" href="pagina de noticias/pagnoticias.html">Notícias de cinema</a></li>
+                      <li><a class="dropdown-item menu-item" href="pagina-recomendados/recomendados.html">Sugestões</a></li>
                     </ul>
                     <ul class="submenu">
                       <li class="menu-subtitulo">Comunidade</li>
-                      <li><a class="dropdown-item menu-item" href="#">Central de ajuda</a></li>
+                      <li><a class="dropdown-item menu-item" href="pagina-ajuda/ajuda.html">Central de ajuda</a></li>
                       <li><a id="redes" class="dropdown-item menu-item" >Redes sociais</a></li></ul>
                       <li id="logo-menu">
-                        <div class="logo-position">
+                        <div class="../logo-position">
                           <img src="../img/pipoica 1.svg">
                           <img id="cinehouse-position" src="../img/CINE HOUSE.svg">
                         </div>
@@ -73,7 +71,8 @@
                 </ul>
               </li>
             </ul>
-            <a class="nav-linkk" href="../paginalogin/login.html">Login</a>
+            <a class="Login" href="paginalogin/login.html">Login</a>
+            
             </li>
             </ul>
           </div>
@@ -86,7 +85,7 @@
         <img src="medium-cove.jpg" alt="" />
         <div class="result-grid" id="result-grid"></div>
       </div>
-    </div>
+    </div>  
     <!--//HEADER-->
 
     <!--RECOMENDADOS-->
