@@ -73,30 +73,30 @@ function displayMovieDetails(details) {
     background-color: rgba(0, 27, 40, 1);
     z-index: 2;
   }
-  @media (max-width: 1440px) {
+  @media (max-width: 1680px) {
     .result-container {
       background-color: rgba(0, 27, 40, 1);
-      height: 290%;
+      height: 80%;
       width: 100%;
       z-index: 5;
     }
     .movie-poster img{
-      margin-left: 300px
+      margin-left: 400px
     }
     .movie-info {
       margin-left: 100px
       
     }
   }
-  @media (max-width: 1680px) {
+  @media (max-width: 1440px) {
     .result-container {
       background-color: rgba(0, 27, 40, 1);
-      height: 290%;
+      height: 90%;
       width: 100%;
       z-index: 5;
     }
     .movie-poster img{
-      margin-left: 400px
+      margin-left: 300px
     }
     .movie-info {
       margin-left: 100px
