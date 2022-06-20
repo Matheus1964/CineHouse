@@ -110,7 +110,7 @@ function displayMovieDetails(details) {
   <h3 class = "movie-title">${details.title}</h3>
   <ul class = "movie-misc-info">
       <li class = "rated">Receita: ${details.revenue}</li>
-      <li class = "released">Duração:${details.runtime}Minutos</li>
+      <li class = "released">Duração: ${details.runtime}Minutos</li>
   </ul>
   <p class = "genre"><b>Gênero</b> ${details.genres[0].name}</p>
   <p class = "writer"><b>País:</b>${details.production_countries[0].name}.</p>
