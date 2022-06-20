@@ -19,3 +19,11 @@
 
   color: #ebff00;
 }
+.img-recomendados {
+  width: 150px;
+  height: auto;
+}
+p{
+  text-align: left;
+  width: 200px;
+}
