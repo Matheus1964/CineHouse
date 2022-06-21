@@ -130,6 +130,38 @@ body {
   padding: 0.1rem 1rem;
 }
 
+/*//////////Carrossel///////////*/
+/*Botões*/
+
+.carousel-control-prev  {
+  left: 0;
+  height: 200px;
+  top: 33%;
+  position: absolute;
+}
+
+.carousel-control-next {
+  right: 0;
+  height: 200px;
+  top: 33%;
+  position: absolute;
+}
+/*botões*/
+
+.carousel-caption {
+  right: 40%;
+  bottom: 10%;
+  padding: 0;
+  left: 40%;
+}
+
+.carousel-indicators {
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+/*///////////Carrossel///////////*/
+
 .recomendados {
   /*RECOMENDADOS*/
   position: absolute;
