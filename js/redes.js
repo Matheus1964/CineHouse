@@ -26,7 +26,7 @@ tela.addEventListener('click', function () {
   <img style=" height: 10rem;"src="../img/facebook.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Facebook</h5>
-    <p class="card-text">Essa é a rede social cinehouse</p>
+    <p class="card-text">Essa é o facebook cinehouse</p>
     <a href="https://pt-br.facebook.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
@@ -34,7 +34,7 @@ tela.addEventListener('click', function () {
   <img style=" height: 10rem;" src="../img/twitter.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Twitter</h5>
-    <p class="card-text">matheus</p>
+    <p class="card-text">Essa é o twitter cinehouse</p>
     <a href="https://twitter.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
@@ -42,7 +42,7 @@ tela.addEventListener('click', function () {
   <img style=" height: 10rem;"src="../img/instagram.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Instagram</h5>
-    <p class="card-text">matheus</p>
+    <p class="card-text">Essa é o instagram cinehouse</p>
     <a href="https://www.instagram.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
@@ -50,7 +50,7 @@ tela.addEventListener('click', function () {
   <img src="../img/github.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">GitHub</h5>
-    <p class="card-text"></p>
+    <p class="card-text">GitHub: Matheus</p>
     <a href="https://github.com/Matheus1964" class="btn btn-primary">Acessar</a>
   </div>
 </div>
