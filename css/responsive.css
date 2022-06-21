@@ -247,6 +247,18 @@
   color: #ebff00;
 }
 /* responsivo teste*/
+@media (max-width: 1920px) {
+  .recomendados {
+    /*RECOMENDADOS*/
+    position: absolute;
+    left: 65%;
+    top: 158px;
+
+    font-style: normal;
+    line-height: 35px;
+    color: #ebff00;
+  }
+}
 @media (max-width: 1680px) {
   .search-list {
     position: absolute;
