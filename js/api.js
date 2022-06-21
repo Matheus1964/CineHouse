@@ -69,14 +69,14 @@ function displayMovieDetails(details) {
     position: absolute;
     top: 8.5rem;
     width: 100%;
-    height: 80%;
+    height: 230%;
     background-color: rgba(0, 27, 40, 1);
     z-index: 2;
   }
   @media (max-width: 1680px) {
     .result-container {
       background-color: rgba(0, 27, 40, 1);
-      height: 80%;
+      height: 230%;
       width: 100%;
       z-index: 5;
     }
@@ -91,7 +91,7 @@ function displayMovieDetails(details) {
   @media (max-width: 1440px) {
     .result-container {
       background-color: rgba(0, 27, 40, 1);
-      height: 90%;
+      height: 230%;
       width: 100%;
       z-index: 5;
     }
