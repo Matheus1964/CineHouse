@@ -4,7 +4,7 @@
 }
 body {
   background-color: rgba(0, 27, 40, 1);
-  height: 2600px;
+  height: 2750px;
 }
 .carrosel {
   width: 708px;
@@ -163,7 +163,6 @@ body {
 }
 
 .recomendados-item {
-  padding: 20px;
   padding-left: 10px;
 }
 
