@@ -46,12 +46,14 @@ body {
   position: relative;
   top: 12px;
 }
-
+/* ////////////// Nome CineHouse /////////////*/
 #cine {
   margin-left: -8px;
   margin-top: 30px;
   text-decoration-line: none;
 }
+/* ////////////// Nome CineHouse /////////////*/
+/* ////////////// Coluna Preta /////////////*/
 #rect {
   position: absolute;
   width: 4px;
@@ -61,6 +63,7 @@ body {
 
   background: #000000;
 }
+/* ////////////// Coluna Preta /////////////*/
 #mh {
   position: relative;
   width: 90px;
@@ -82,13 +85,13 @@ body {
   letter-spacing: 1px;
 }
 
-#lupa {
+/*#lupa {
   position: absolute;
   margin-top: -15px;
   margin-left: -15px;
   width: 30px;
 }
-/*.btn {
+.btn {
   width: 40px;
   height: 36px;
   left: 1270px;
@@ -133,7 +136,7 @@ body {
 /*//////////Carrossel///////////*/
 /*Botões*/
 
-.carousel-control-prev  {
+.carousel-control-prev {
   left: 0;
   height: 200px;
   top: 33%;
