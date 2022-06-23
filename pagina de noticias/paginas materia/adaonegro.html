@@ -1,48 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adão Negro recebe primeiro trailer - CineHouse</title>
-    <link rel="stylesheet" href="pagsimples.css">
-</head>
-<body>
-    <div class="container">
-        <article>
-            <h1>Adão Negro recebe primeiro trailer</h1>
+    <link rel="stylesheet" href="pagsimples.css" />
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../rodape/style.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--HEADER-->
+    <div id="Header">
 
-            <div class="article-meta">
-                <address>Luís Henrique Sousa Caixeta</address>
-                <p>Publicado em <time pubdate>10-06-2022</time>.</p>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img id="logo" src="../../img/pipoica 1.svg" alt=""><img id="cine"
+                src="../../img/CINE HOUSE.svg" alt=""><img id="rect" src="../img/Rectangle 2.svg" alt=""></a>
+            <div class="search-container">
+              <div class="search-element">
+                <input type="text" class="form-control" placeholder="Pesquisar filme" id="movie-search-box"
+                  onkeyup="findMovies()" onclick="findMovies()" />
+    
+                  <div class="search-list" id="search-list"></div>
+              </div>
             </div>
-            
-            <div class="image-wrapper">
-                <img src="imgs/adaonegro.jpg" alt="">
-                <span>Fonte da Imagem: WarnerBros</span>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <div class="Menu">
+                    <img id="Menu" src="../../img/gridicons_menu.svg" alt="">
+                    <p>Menu</p>
+                  </div>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="grid">
+                      <button id="Sair" type="button" class="btn-close" disabled aria-label="Close"></button>
+                      <ul class="submenu">
+                        <li class="menu-subtitulo">Filmes</li>
+                        <li><a class="dropdown-item menu-item" href="../../principais-filmes/principais-filmes.html">Principais filmes</a></li>
+                        <li><a class="dropdown-item menu-item" href="../populares.html">Mais populares</a></li>
+                        <li><a class="dropdown-item menu-item" href="../../pagina de noticias/pagnoticias.html">Notícias de cinema</a></li>
+                        <li><a class="dropdown-item menu-item" href="../../pagina-recomendados/recomendados.html">Sugestões</a></li>
+                      </ul>
+                      <ul class="submenu">
+                        <li class="menu-subtitulo">Comunidade</li>
+                        <li><a class="dropdown-item menu-item" href="../../pagina-ajuda/ajuda.html">Central de ajuda</a></li>
+                        <li><a id="redes" class="dropdown-item menu-item" >Redes sociais</a></li></ul>
+                        <li id="logo-menu">
+                          <div class="../../logo-position">
+                            <img src="../../img/pipoica 1.svg">
+                            <img id="cinehouse-position" src="../../img/CINE HOUSE.svg">
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+              <a class="Login" href="../../paginalogin/login.html">Login</a>
+              
+              </li>
+              </ul>
             </div>
-            
-            <div class="texto">
-                <br>
-                <p class="pt1">A Warner Bros, divulgou na última quarta-feira(08/06), o primeiro trailer do anti-herói da DC, Adão Negro, estrelado por Dwayne "The Rock" Johnson.</p>
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HluMG9tJXHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="image-wrapper-text">
-                   
-                    <span>Fonte do vídeo: YouTube/Warner Bros. Pictures Brasil</span>
-                </div>
-                <p>O trailer mostra a reviravolta no protagonista, que antes um escravo, é concebido com poderes onipotentes dos antigos deuses.</p>
-                <p>Adão Negro é dirigido por Jaume Collet-Serra. Bill Parker e C.C. Beck. Adam Sztykiel, Rory Haines e Sohrab Noshirvani assinam o roteiro. O novo filme está previsto para ser lançando nas grandes telas em 20 de outubro de 2022.</p>
+          </div>
+        </nav>
+      </div>
+      <div id="predes" id="predes"></div>
+      <div class="c">
+        <div class="result-container">
+          <img src="medium-cove.jpg" alt="" />
+          <div class="result-grid" id="result-grid"></div>
+        </div>
+      </div>
+      <!--//HEADER-->
+    <div class="containerNoticias">
+      <article>
+        <h1>Adão Negro recebe primeiro trailer</h1>
 
-                
-            </div>
+        <div class="article-meta">
+          <address>Luís Henrique Sousa Caixeta</address>
+          <p>Publicado em <time pubdate>10-06-2022</time>.</p>
+        </div>
 
-            <h2 class="carregar"><a href="" class="link">Voltar a notícias</a></h2>
-            
-        </article>
-        
-        
+        <div class="image-wrapper">
+          <img src="imgs/adaonegro.jpg" alt="" />
+          <span>Fonte da Imagem: WarnerBros</span>
+        </div>
 
+        <div class="texto">
+          <br />
+          <p class="sinopse">
+            A Warner Bros, divulgou na última quarta-feira(08/06), o primeiro
+            trailer do anti-herói da DC, Adão Negro, estrelado por Dwayne "The
+            Rock" Johnson.
+          </p>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HluMG9tJXHM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="image-wrapper-text">
+            <span>Fonte do vídeo: YouTube/Warner Bros. Pictures Brasil</span>
+          </div>
+          <p class="sinopse">
+            O trailer mostra a reviravolta no protagonista, que antes um
+            escravo, é concebido com poderes onipotentes dos antigos deuses.
+          </p>
+          <p class="sinopse">
+            Adão Negro é dirigido por Jaume Collet-Serra. Bill Parker e C.C.
+            Beck. Adam Sztykiel, Rory Haines e Sohrab Noshirvani assinam o
+            roteiro. O novo filme está previsto para ser lançando nas grandes
+            telas em 20 de outubro de 2022.
+          </p>
+        </div>
+
+        <h2 class="carregar"><a href="../pagnoticias.html" class="link">Voltar a notícias</a></h2>
+      </article>
     </div>
-</body>
+    <!--Footer-->
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-3">
+          <h2 class="logo">
+              <a href="../../index.html">
+              <img src="../../img/Background.png" alt="">
+              <img id="logo-rodape" src="../../img/CINE HOUSE branca.svg">
+            </a>
+          </h2>
+        </div>
+        <div class="col-2">
+          <h5>Sobre-nós</h5>
+          <ul>
+            <li><a href="#">Informações da Empresa</a></li>
+            <li><a href="../../pagina-ajuda/ajuda.html">Contato</a></li>
+            <li><a href="../../pagina de noticias/pagnoticias.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <h5>Suporte</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Telefones</a></li>
+            <li><a href="../../pagina-ajuda/ajuda.html">Chat</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+
+          <div class="social-networks">
+            <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://pt-br.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="../../pagina-ajuda/ajuda.html"><button type="button" class="btn btn-default contato">Contato</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2022 Copyright - Programador CineHouse</p>
+    </div>
+  </footer>
+  <!--Footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="../../js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/api.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../../js/embreve.js"></script>
+  <script src="../../js/redes.js"></script>
+  </body>
 </html>

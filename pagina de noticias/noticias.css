@@ -21,7 +21,7 @@ body {
 }
 
 .conjunto:hover {
-  transform: scale(1.04);
+  transform: scale(1.09);
   transition: 0.3s ease;
 }
 
@@ -44,7 +44,7 @@ body {
   text-decoration: none;
 }
 .link:hover {
-  color: #008f8c;
+  color: #ebff00;
   text-decoration: none;
 }
 
