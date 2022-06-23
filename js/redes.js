@@ -20,13 +20,13 @@ tela.addEventListener('click', function () {
       z-index: 5;
     }
   }</style>
-  <h1 id="redes1">Redes Social CineHouse</h1>
+  <h1 id="redes1">Redes Sociais CineHouse</h1>
   <div class="linha">
   <div class="card" style="width: 18rem;">
   <img style=" height: 10rem;"src="../../img/facebook.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Facebook</h5>
-    <p class="card-text">Essa é o facebook cinehouse</p>
+    <p class="card-text">Facebook CineHouse</p>
     <a href="https://pt-br.facebook.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
@@ -34,7 +34,7 @@ tela.addEventListener('click', function () {
   <img style=" height: 10rem;" src="../../img/twitter.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Twitter</h5>
-    <p class="card-text">Essa é o twitter cinehouse</p>
+    <p class="card-text">Twitter CineHouse</p>
     <a href="https://twitter.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
@@ -42,7 +42,7 @@ tela.addEventListener('click', function () {
   <img style=" height: 10rem;"src="../../img/instagram.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Instagram</h5>
-    <p class="card-text">Essa é o instagram cinehouse</p>
+    <p class="card-text">Instagram CineHouse</p>
     <a href="https://www.instagram.com/" class="btn btn-primary">Acessar</a>
   </div>
 </div>
