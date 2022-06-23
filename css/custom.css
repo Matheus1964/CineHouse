@@ -4,7 +4,7 @@
 }
 body {
   background-color: rgba(0, 27, 40, 1);
-  height: 2750px;
+  height: 2800px;
 }
 .carrosel {
   width: 708px;
@@ -25,6 +25,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
+  text-decoration: none;
 
   color: #000000;
 }
@@ -41,6 +42,9 @@ body {
   line-height: 35px;
 
   color: #000000;
+}
+.Menu :hover {
+  opacity: 0.6;
 }
 .Menu p {
   position: relative;
@@ -128,7 +132,19 @@ body {
   box-shadow: 15px 4px 20px #000000;
   border-radius: 100px;
 }
-
+/*//////////Dropdown///////////*/
+/*///Botão sair///*/
+#Sair {
+  position: absolute;
+  left: 88%;
+  opacity: 100;
+  color: blue;
+}
+.btn-close {
+  color: #ebff00;
+}
+/*///Botão sair///*/
+/*//////////Dropdown///////////*/
 .dropdown-item {
   padding: 0.1rem 1rem;
 }
@@ -199,6 +215,9 @@ body {
 
 .recomendados-item {
   padding-left: 10px;
+}
+.recomendados-item :hover {
+  transform: scale(1.1);
 }
 
 .dropdown-menu.show {
@@ -277,8 +296,16 @@ body {
 
 .poster-hover:hover .poster-img {
   /*hover*/
-  opacity: 0.5;
   cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+  border: solid 2px #001b28;
+}
+.col :hover p {
+  color: #ebff00;
+}
+.col:hover .lanc {
+  color: #ebff00;
 }
 
 .subtitulo-link {
@@ -337,6 +364,9 @@ body {
   font-size: 1.4rem;
   padding-bottom: 10px;
   cursor: pointer;
+}
+.poster-titulo :hover {
+  background-color: black;
 }
 /*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
 #myFooter {
@@ -439,7 +469,7 @@ body {
 }
 
 .link-item:hover {
-  color: #008f8c;
+  color: #ebff00;
   text-decoration: none;
 }
 
@@ -461,7 +491,7 @@ body {
 }
 
 #mais a:hover {
-  color: #008f8c;
+  color: #ebff00;
 }
 
 /*Linha do parágrafo Mais*/
