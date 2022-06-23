@@ -49,7 +49,7 @@ function loadMovieDetails() {
   searchListMovies.forEach(movie => {
     movie.addEventListener('click', async () => {
       //console.log(movie.dataset.id)
-      searchList.classList.add('hide-seatch-list')
+      searchList.classList.add('hide-search-list')
       movieSearchBox.value = ''
       const result = await fetch(
         `https://api.themoviedb.org/3/movie/${movie.dataset.id}?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR`
@@ -91,7 +91,7 @@ function displayMovieDetails(details) {
   @media (max-width: 1440px) {
     .result-container {
       background-color: rgba(0, 27, 40, 1);
-      height: 230%;
+      height: 270%;
       width: 100%;
       z-index: 5;
     }
