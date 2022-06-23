@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="ajuda.css">
   <link rel="stylesheet" href="../css/custom.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="../css/responsive.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -44,6 +44,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <div class="grid">
+                  <button id="Sair" type="button" class="btn-close" disabled aria-label="Close"></button>
                   <ul class="submenu">
                     <li class="menu-subtitulo">Filmes</li>
                     <li><a class="dropdown-item menu-item" href="../principais-filmes/principais-filmes.html">Principais filmes</a></li>
@@ -127,19 +128,16 @@
       
     </form>
   </div>
-
-  
   <!--//Conteúdo-->
-
+  <!--Footer-->
   <footer id="myFooter">
     <div class="container">
       <div class="row">
         <div class="col-1"></div>
         <div class="col-3">
-          <h2 class="logo">
-            <a href="../index.html">
-              <img src="../img/logo.svg" alt="">
-              <img id="logo-rodape" src="../img/CINE HOUSE.svg" />
+          <h2 class="logo"><a href="index.html">
+              <img src="../img/Background.png" alt="">
+              <img id="logo-rodape" src="../img/CINE HOUSE branca.svg">
             </a>
           </h2>
         </div>
@@ -147,8 +145,8 @@
           <h5>Sobre-nós</h5>
           <ul>
             <li><a href="#">Informações da Empresa</a></li>
-            <li><a href="ajuda.html">Contato</a></li>
-            <li><a href="../pagina de noticias/pagnoticias.html">Blog</a></li>
+            <li><a href="pagina-ajuda/ajuda.html">Contato</a></li>
+            <li><a href="pagina de noticias/pagnoticias.html">Blog</a></li>
           </ul>
         </div>
         <div class="col-2">
@@ -156,17 +154,15 @@
           <ul>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Telefones</a></li>
-            <li><a href="ajuda.html">Chat</a></li>
+            <li><a href="pagina-ajuda/ajuda.html">Chat</a></li>
           </ul>
         </div>
         <div class="col-3">
           <div class="social-networks">
-            <div class="social-networks">
-              <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://pt-br.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="../pagina-ajuda/ajuda.html"><button type="button" class="btn btn-default contato">Contato</button></a>
-            </div>
+            <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://pt-br.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="pagina-ajuda/ajuda.html"><button type="button" class="btn btn-default contato">Contato</button></a>
           </div>
         </div>
       </div>
@@ -175,6 +171,7 @@
       <p>© 2022 Copyright - Programador CineHouse</p>
     </div>
   </footer>
+  <!--Footer-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
