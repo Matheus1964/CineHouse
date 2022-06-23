@@ -15,6 +15,10 @@ body {
 }
 .navbar {
   background-color: #008f8c;
+  box-shadow: 14px 14px 14px rgb(0, 0, 0);
+}
+#carouselExampleCaptions {
+  box-shadow: 14px 14px 14px black;
 }
 /*login*/
 .Login {
@@ -211,6 +215,9 @@ body {
   /*Altura e largura dos recomendados*/
   height: 180px;
   width: 135px;
+  border-radius: 10px;
+  border: solid 1px rgb(0, 0, 0);
+  box-shadow: 15px 14px 20px black;
 }
 
 .recomendados-item {
@@ -292,6 +299,7 @@ body {
   width: 200px;
   height: 267px;
   transition: 0.3s ease;
+  border-radius: 5px;
 }
 
 .poster-hover:hover .poster-img {
