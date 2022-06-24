@@ -1,4 +1,5 @@
 const img = 'https://image.tmdb.org/t/p/w500'
+const youtube = 'https://www.youtube.com/watch?v='
 const movieSearchBox = document.getElementById('movie-search-box')
 const searchList = document.getElementById('search-list')
 const resultGrid = document.getElementById('result-grid')
@@ -52,7 +53,7 @@ function loadMovieDetails() {
       searchList.classList.add('hide-search-list')
       movieSearchBox.value = ''
       const result = await fetch(
-        `https://api.themoviedb.org/3/movie/${movie.dataset.id}?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR`
+        `https://api.themoviedb.org/3/movie/${movie.dataset.id}?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR&append_to_response=videos`
       )
       const movieDetails = await result.json()
 
