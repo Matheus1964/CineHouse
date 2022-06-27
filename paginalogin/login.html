@@ -39,7 +39,9 @@
           </div>
         </fieldset>
 
-        <button class="botao" type="submit" onsubmit="">Entrar</button>
+        <button class="botao" id="teste" type="submit" onsubmit="">
+          Entrar
+        </button>
         <br />
         <br />
         <br />
@@ -52,5 +54,11 @@
         </p>
       </form>
     </div>
+    <script>
+      const alert = document.getElementById('teste')
+      alert.addEventListener('click', function () {
+        window.alert('Você ainda não foi cadastrado')
+      })
+    </script>
   </body>
 </html>
