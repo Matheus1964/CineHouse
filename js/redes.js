@@ -19,6 +19,14 @@ tela.addEventListener('click', function () {
       width: 100%;
       z-index: 5;
     }
+  }
+  @media (max-width: 1340px){
+    .result-container {
+      background-color: rgba(0, 27, 40, 1);
+      height: 300%;
+      width: 100%;
+      z-index: 5;
+    }
   }</style>
   <h1 id="redes1">Redes Sociais CineHouse</h1>
   <div class="linha">
