@@ -373,15 +373,11 @@ body {
   padding-bottom: 10px;
   cursor: pointer;
 }
-.poster-titulo :hover {
-  background-color: black;
-}
-/*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
-#myFooter {
-  margin-top: auto;
-}
-/*///////////////////Anúncio vertical////////////////////////////*/
 
+/*///////////////////Estilo Lista horizontal do EM BREVE//////////////////*/
+
+/*///////////////////Anúncio vertical/////////////////////////////
+/Status: desativado/
 .anuncio {
   width: 160px;
   height: 600px;
@@ -399,7 +395,7 @@ body {
   font-weight: bold;
 }
 
-/*///////////////////Anúncio vertical////////////////////////////*/
+////////////////////Anúncio vertical////////////////////////////*/
 
 /*///////////////////Anúncio horizontal///////////////////////*/
 
