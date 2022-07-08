@@ -6,7 +6,7 @@ const resultGrid = document.getElementById('result-grid')
 //https://api.themoviedb.org/3/movie/popular?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR&page=1'
 // load movies from API
 async function loadMovies(searchTerm) {
-  const URL = `https://api.themoviedb.org/3/search/movie?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR&query=${searchTerm}&page=thor&include_adult=false`
+  const URL = `https://api.themoviedb.org/3/search/movie?api_key=187c100c6f5361dbac24684c0cbb448b&language=pt-BR&query=${searchTerm}&page=thor&include_adult=true`
   const res = await fetch(`${URL}`)
   const data = await res.json()
   //console.log(data.results)
@@ -57,7 +57,7 @@ function loadMovieDetails() {
       )
       const movieDetails = await result.json()
 
-      //console.log(movieDetails)
+      //console.log(movieDetails.videos.results[0].key)
       displayMovieDetails(movieDetails)
     })
   })
